@@ -1,0 +1,114 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - FDFullscreenPopGesture (1.1)
+  - GKCover (3.0.1)
+  - IQKeyboardManager (6.5.10)
+  - lottie-ios (2.5.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.7.5)
+  - Reachability (3.2)
+  - ReactiveObjC (3.1.1)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.14.2):
+    - SDWebImage/Core (= 5.14.2)
+  - SDWebImage/Core (5.14.2)
+  - UICKeyChainStore (2.2.1)
+  - YBPopupMenu (1.1.9)
+  - YYCache (1.0.4)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYModel (1.0.4)
+  - YYText (1.0.7)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - AFNetworking
+  - FDFullscreenPopGesture
+  - GKCover
+  - IQKeyboardManager
+  - lottie-ios (= 2.5.3)
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - Reachability
+  - ReactiveObjC
+  - SDCycleScrollView
+  - UICKeyChainStore
+  - YBPopupMenu
+  - YYCache
+  - YYCategories
+  - YYImage
+  - YYModel
+  - YYText
+  - YYWebImage
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FDFullscreenPopGesture
+    - GKCover
+    - IQKeyboardManager
+    - lottie-ios
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - Reachability
+    - ReactiveObjC
+    - SDCycleScrollView
+    - SDWebImage
+    - UICKeyChainStore
+    - YBPopupMenu
+    - YYCache
+    - YYCategories
+    - YYImage
+    - YYModel
+    - YYText
+    - YYWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  GKCover: 6486cf87c0a5cae4bb5c3a09e17925ad8b466412
+  IQKeyboardManager: 45a1fa55c1a5b02c61ac0fd7fd5b62bb4ad20d97
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: b9a731e1d6307f44ca703b3976d18c24ca561e84
+  UICKeyChainStore: ba3bff2c762b12db1e516f395c837dd25298b05e
+  YBPopupMenu: 3a02e89860bb0568ba477aee609bc3f25e5bd339
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 4b1e682b6b261edd427ab107827a0c731a024dcc
+
+COCOAPODS: 1.11.3
