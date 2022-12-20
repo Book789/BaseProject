@@ -37,5 +37,6 @@
 
 
 #import "LHConstant.h"
+#import "SQLogManager.h"
 
 #endif /* PrefixHeader_h */

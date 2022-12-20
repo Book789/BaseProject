@@ -35,10 +35,6 @@
 @end
 
 @implementation ViewController
--(void)viewDidUnload{
-    [super viewDidLoad];
-    NSLog(@"viewDidLoad");
-}
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     NSLog(@"viewDidAppear");

@@ -14,6 +14,9 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
   - FDFullscreenPopGesture (1.1)
   - GKCover (3.0.1)
   - IQKeyboardManager (6.5.10)
@@ -45,6 +48,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - CocoaLumberjack
   - FDFullscreenPopGesture
   - GKCover
   - IQKeyboardManager
@@ -67,6 +71,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - CocoaLumberjack
     - FDFullscreenPopGesture
     - GKCover
     - IQKeyboardManager
@@ -89,6 +94,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   GKCover: 6486cf87c0a5cae4bb5c3a09e17925ad8b466412
   IQKeyboardManager: 45a1fa55c1a5b02c61ac0fd7fd5b62bb4ad20d97
@@ -109,6 +115,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 4b1e682b6b261edd427ab107827a0c731a024dcc
+PODFILE CHECKSUM: 411107e79fa9b64c357d6196a6811a1c49ff3ff1
 
 COCOAPODS: 1.11.3

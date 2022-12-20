@@ -18,7 +18,7 @@ def all_pods
   pod 'ReactiveObjC'
   pod 'lottie-ios', '2.5.3'
   pod 'SDCycleScrollView'
-
+  pod 'CocoaLumberjack'
   #YYKit
   #pod 'YYKit'
   # YYKit 的一套分类

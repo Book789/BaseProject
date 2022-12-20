@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		79D4793E4F869528A099DA67 /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D513B57FC1DDB269D1577C8 /* Pods_BaseProject.framework */; };
+		B30065D929518648000838EB /* SQLogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B30065D129518646000838EB /* SQLogFileManager.m */; };
+		B30065DA29518648000838EB /* SQFileLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B30065D629518647000838EB /* SQFileLogFormatter.m */; };
+		B30065DB29518648000838EB /* SQLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B30065D729518647000838EB /* SQLogManager.m */; };
+		B30065DC29518648000838EB /* SQLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B30065D829518648000838EB /* SQLogFormatter.m */; };
 		B3F3FA112949B12600F46D30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FA102949B12600F46D30 /* AppDelegate.m */; };
 		B3F3FA142949B12600F46D30 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FA132949B12600F46D30 /* SceneDelegate.m */; };
 		B3F3FA172949B12600F46D30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FA162949B12600F46D30 /* ViewController.m */; };
@@ -151,6 +155,14 @@
 /* Begin PBXFileReference section */
 		4D513B57FC1DDB269D1577C8 /* Pods_BaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B212DBB101E5D4315DA55276 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		B30065D129518646000838EB /* SQLogFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLogFileManager.m; sourceTree = "<group>"; };
+		B30065D229518646000838EB /* SQFileLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQFileLogFormatter.h; sourceTree = "<group>"; };
+		B30065D329518647000838EB /* SQLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLogManager.h; sourceTree = "<group>"; };
+		B30065D429518647000838EB /* SQLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLogFormatter.h; sourceTree = "<group>"; };
+		B30065D529518647000838EB /* SQLogFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLogFileManager.h; sourceTree = "<group>"; };
+		B30065D629518647000838EB /* SQFileLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQFileLogFormatter.m; sourceTree = "<group>"; };
+		B30065D729518647000838EB /* SQLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLogManager.m; sourceTree = "<group>"; };
+		B30065D829518648000838EB /* SQLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLogFormatter.m; sourceTree = "<group>"; };
 		B3F3FA0C2949B12600F46D30 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F3FA0F2949B12600F46D30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B3F3FA102949B12600F46D30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -418,6 +430,21 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B30065D029518624000838EB /* LogManage */ = {
+			isa = PBXGroup;
+			children = (
+				B30065D229518646000838EB /* SQFileLogFormatter.h */,
+				B30065D629518647000838EB /* SQFileLogFormatter.m */,
+				B30065D529518647000838EB /* SQLogFileManager.h */,
+				B30065D129518646000838EB /* SQLogFileManager.m */,
+				B30065D429518647000838EB /* SQLogFormatter.h */,
+				B30065D829518648000838EB /* SQLogFormatter.m */,
+				B30065D329518647000838EB /* SQLogManager.h */,
+				B30065D729518647000838EB /* SQLogManager.m */,
+			);
+			path = LogManage;
+			sourceTree = "<group>";
+		};
 		B3F3FA032949B12600F46D30 = {
 			isa = PBXGroup;
 			children = (
@@ -568,6 +595,7 @@
 		B3F3FD392949BC3000F46D30 /* Extra */ = {
 			isa = PBXGroup;
 			children = (
+				B30065D029518624000838EB /* LogManage */,
 				B3F3FD632949BC3000F46D30 /* AppLaunchTime.h */,
 				B3F3FD9B2949BC3000F46D30 /* AppLaunchTime.m */,
 				B3F3FD7A2949BC3000F46D30 /* Base_ */,
@@ -810,34 +838,34 @@
 		B3F3FE072949BD8600F46D30 /* FriendsCircle */ = {
 			isa = PBXGroup;
 			children = (
-				B3F3FE082949BD8600F46D30 /* FriendsCircleHeaderView.m */,
-				B3F3FE092949BD8600F46D30 /* LHMomentHelper.h */,
-				B3F3FE0A2949BD8600F46D30 /* MHPicture.m */,
-				B3F3FE0B2949BD8600F46D30 /* MHMomentPhotoItemViewModel.h */,
 				B3F3FE0C2949BD8600F46D30 /* FriendsCircleFooterView.h */,
-				B3F3FE0D2949BD8600F46D30 /* MHPictureMetadata.h */,
-				B3F3FE0E2949BD8600F46D30 /* NSMutableAttributedString+MHMoment.h */,
-				B3F3FE0F2949BD8600F46D30 /* MHMomentPhotosView.m */,
-				B3F3FE102949BD8600F46D30 /* LHMomentItemViewModel.h */,
-				B3F3FE112949BD8600F46D30 /* MHComment.m */,
-				B3F3FE122949BD8600F46D30 /* MHMomentVideoView.h */,
-				B3F3FE132949BD8600F46D30 /* MHMomentPhotoView.m */,
-				B3F3FE142949BD8600F46D30 /* LHConstant.h */,
-				B3F3FE152949BD8600F46D30 /* LHMoment.m */,
-				B3F3FE162949BD8600F46D30 /* MHMomentPhotoItemViewModel.m */,
-				B3F3FE172949BD8600F46D30 /* LHMomentHelper.m */,
-				B3F3FE182949BD8600F46D30 /* MHPicture.h */,
-				B3F3FE192949BD8600F46D30 /* FriendsCircleHeaderView.h */,
-				B3F3FE1A2949BD8600F46D30 /* NSMutableAttributedString+MHMoment.m */,
-				B3F3FE1B2949BD8600F46D30 /* MHPictureMetadata.m */,
 				B3F3FE1C2949BD8600F46D30 /* FriendsCircleFooterView.m */,
-				B3F3FE1D2949BD8600F46D30 /* MHMomentVideoView.m */,
-				B3F3FE1E2949BD8600F46D30 /* MHComment.h */,
-				B3F3FE1F2949BD8600F46D30 /* LHMomentItemViewModel.m */,
-				B3F3FE202949BD8600F46D30 /* MHMomentPhotosView.h */,
-				B3F3FE212949BD8600F46D30 /* LHMoment.h */,
+				B3F3FE192949BD8600F46D30 /* FriendsCircleHeaderView.h */,
+				B3F3FE082949BD8600F46D30 /* FriendsCircleHeaderView.m */,
+				B3F3FE142949BD8600F46D30 /* LHConstant.h */,
 				B3F3FE222949BD8600F46D30 /* LHConstant.m */,
+				B3F3FE212949BD8600F46D30 /* LHMoment.h */,
+				B3F3FE152949BD8600F46D30 /* LHMoment.m */,
+				B3F3FE092949BD8600F46D30 /* LHMomentHelper.h */,
+				B3F3FE172949BD8600F46D30 /* LHMomentHelper.m */,
+				B3F3FE102949BD8600F46D30 /* LHMomentItemViewModel.h */,
+				B3F3FE1F2949BD8600F46D30 /* LHMomentItemViewModel.m */,
+				B3F3FE1E2949BD8600F46D30 /* MHComment.h */,
+				B3F3FE112949BD8600F46D30 /* MHComment.m */,
+				B3F3FE0B2949BD8600F46D30 /* MHMomentPhotoItemViewModel.h */,
+				B3F3FE162949BD8600F46D30 /* MHMomentPhotoItemViewModel.m */,
+				B3F3FE202949BD8600F46D30 /* MHMomentPhotosView.h */,
+				B3F3FE0F2949BD8600F46D30 /* MHMomentPhotosView.m */,
 				B3F3FE232949BD8600F46D30 /* MHMomentPhotoView.h */,
+				B3F3FE132949BD8600F46D30 /* MHMomentPhotoView.m */,
+				B3F3FE122949BD8600F46D30 /* MHMomentVideoView.h */,
+				B3F3FE1D2949BD8600F46D30 /* MHMomentVideoView.m */,
+				B3F3FE182949BD8600F46D30 /* MHPicture.h */,
+				B3F3FE0A2949BD8600F46D30 /* MHPicture.m */,
+				B3F3FE0D2949BD8600F46D30 /* MHPictureMetadata.h */,
+				B3F3FE1B2949BD8600F46D30 /* MHPictureMetadata.m */,
+				B3F3FE0E2949BD8600F46D30 /* NSMutableAttributedString+MHMoment.h */,
+				B3F3FE1A2949BD8600F46D30 /* NSMutableAttributedString+MHMoment.m */,
 			);
 			path = FriendsCircle;
 			sourceTree = "<group>";
@@ -845,11 +873,11 @@
 		B3F3FE242949BD8600F46D30 /* Person */ = {
 			isa = PBXGroup;
 			children = (
-				B3F3FE252949BD8600F46D30 /* LHCollectionViewCustomLayout.h */,
-				B3F3FE262949BD8600F46D30 /* Model */,
 				B3F3FE292949BD8600F46D30 /* Controllers */,
-				B3F3FE3C2949BD8600F46D30 /* Views */,
+				B3F3FE252949BD8600F46D30 /* LHCollectionViewCustomLayout.h */,
 				B3F3FE452949BD8600F46D30 /* LHCollectionViewCustomLayout.m */,
+				B3F3FE262949BD8600F46D30 /* Model */,
+				B3F3FE3C2949BD8600F46D30 /* Views */,
 			);
 			path = Person;
 			sourceTree = "<group>";
@@ -1121,6 +1149,7 @@
 				B3F3FDD22949BC3000F46D30 /* AppLaunchTime.m in Sources */,
 				B3F3FDD42949BC3100F46D30 /* NBClassifyFileManager.m in Sources */,
 				B3F3FDD12949BC3000F46D30 /* NBJSONResponseSerializer.m in Sources */,
+				B30065D929518648000838EB /* SQLogFileManager.m in Sources */,
 				B3F3FDBD2949BC3000F46D30 /* UIScrollView+GKPhotoBrowser.m in Sources */,
 				B3F3FE522949BD8600F46D30 /* LHMomentItemViewModel.m in Sources */,
 				B3F3FDAD2949BC3000F46D30 /* UIViewController+ViewController.m in Sources */,
@@ -1132,6 +1161,7 @@
 				B3F3FDAB2949BC3000F46D30 /* YYReachability.m in Sources */,
 				B3F3FDCD2949BC3000F46D30 /* DeviceManage.m in Sources */,
 				B3F3FE4C2949BD8600F46D30 /* MHMomentPhotoItemViewModel.m in Sources */,
+				B30065DB29518648000838EB /* SQLogManager.m in Sources */,
 				B3F3FE582949BD8600F46D30 /* FFmpegViewController.m in Sources */,
 				B3F3FE042949BD5800F46D30 /* BasePopupView.m in Sources */,
 				B3F3FDCE2949BC3000F46D30 /* RSAObjC.m in Sources */,
@@ -1167,6 +1197,7 @@
 				B3F3FDA92949BC3000F46D30 /* LHNestedScrollViewController.m in Sources */,
 				B3F3FDB42949BC3000F46D30 /* NSMutableArray+Swizzling.m in Sources */,
 				B3F3FE632949BDEC00F46D30 /* lz4hc.c in Sources */,
+				B30065DA29518648000838EB /* SQFileLogFormatter.m in Sources */,
 				B3F3FE012949BD5800F46D30 /* LHSheetView.m in Sources */,
 				B3F3FDC62949BC3000F46D30 /* NetworkService.m in Sources */,
 				B3F3FDD52949BC3100F46D30 /* Lz4Compress.m in Sources */,
@@ -1187,6 +1218,7 @@
 				B3F3FE662949BDF400F46D30 /* lz4.c in Sources */,
 				B3F3FE4E2949BD8600F46D30 /* NSMutableAttributedString+MHMoment.m in Sources */,
 				B3F3FDFA2949BD5800F46D30 /* LHRefreshPointAnimationView.m in Sources */,
+				B30065DC29518648000838EB /* SQLogFormatter.m in Sources */,
 				B3F3FE592949BD8600F46D30 /* LottieViewController.m in Sources */,
 				B3F3FE512949BD8600F46D30 /* MHMomentVideoView.m in Sources */,
 				B3F3FDFF2949BD5800F46D30 /* LHCustomSwitch.m in Sources */,

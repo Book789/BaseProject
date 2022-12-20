@@ -15,6 +15,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [SQLogManager initConfig];
+    NSLog(@"沙盒地址：%@",NSHomeDirectory());
+
     return YES;
 }
 
