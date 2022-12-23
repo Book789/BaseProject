@@ -34,14 +34,18 @@ def all_pods
   
 #        pod 'YYImage/WebP'
 #        pod 'SDWebImageWebPCoder'
-  
+
   pod 'YYCache'
 
   pod 'GKCover'
   
 #        pod 'SSZipArchive'  #zip 文件压缩zip 格式和解压
-#        pod '25519' #Curve25519  算法
+  pod '25519' #Curve25519  算法
+  pod 'OpenSSL-Universal'
+  pod 'PPSPing', '~> 0.3.0'
+
 #        pod 'ZYImageCompress' 图片压缩
+#        pod 'PPSPing', '~> 0.3.0'  App Ping
 
 
 

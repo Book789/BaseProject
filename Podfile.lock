@@ -1,4 +1,5 @@
 PODS:
+  - 25519 (2.0.2)
   - AFNetworking (4.0.1):
     - AFNetworking/NSURLSession (= 4.0.1)
     - AFNetworking/Reachability (= 4.0.1)
@@ -24,6 +25,8 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.7.5)
+  - OpenSSL-Universal (1.1.1900)
+  - PPSPing (0.3.0)
   - Reachability (3.2)
   - ReactiveObjC (3.1.1)
   - SDCycleScrollView (1.82):
@@ -47,6 +50,7 @@ PODS:
     - YYImage
 
 DEPENDENCIES:
+  - '25519'
   - AFNetworking
   - CocoaLumberjack
   - FDFullscreenPopGesture
@@ -56,6 +60,8 @@ DEPENDENCIES:
   - Masonry
   - MBProgressHUD
   - MJRefresh
+  - OpenSSL-Universal
+  - PPSPing (~> 0.3.0)
   - Reachability
   - ReactiveObjC
   - SDCycleScrollView
@@ -70,6 +76,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - '25519'
     - AFNetworking
     - CocoaLumberjack
     - FDFullscreenPopGesture
@@ -79,6 +86,8 @@ SPEC REPOS:
     - Masonry
     - MBProgressHUD
     - MJRefresh
+    - OpenSSL-Universal
+    - PPSPing
     - Reachability
     - ReactiveObjC
     - SDCycleScrollView
@@ -93,6 +102,7 @@ SPEC REPOS:
     - YYWebImage
 
 SPEC CHECKSUMS:
+  '25519': dc4bad7e2dbcbf1efa121068a705a44cd98c80fc
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
@@ -102,6 +112,8 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  OpenSSL-Universal: 84efb8a29841f2764ac5403e0c4119a28b713346
+  PPSPing: f275a44303d6e1ebbd07b90fe8d29831838e58a7
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
@@ -115,6 +127,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 411107e79fa9b64c357d6196a6811a1c49ff3ff1
+PODFILE CHECKSUM: 92081815d45958bb2ecb62fea99fb08209785372
 
 COCOAPODS: 1.11.3
