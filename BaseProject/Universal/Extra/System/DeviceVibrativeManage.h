@@ -2,7 +2,7 @@
 //  DeviceVibrativeManage.h
 //  Project
 //
-//  Created by 天丰互联 on 2022/12/9.
+//  Created by Book on 2022/12/9.
 //
 
 #import <Foundation/Foundation.h>

@@ -22,6 +22,8 @@
 #import <UINavigationController+FDFullscreenPopGesture.h>
 #import "SDWebImage/SDWebImage.h"
 #import "Lz4Compress.h"
+#import "NSObject+SelectorDefender.h"
+
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource,LHSegmentedViewDelegate>
 
@@ -44,6 +46,7 @@
     NSLog(@"viewDidLoad");
     
     
+
     self.fd_prefersNavigationBarHidden = YES;
     NSArray * array = @[@"1",@"3",@"5"];
     NSArray * array1 = @[@"3",@"1",@"5"];
@@ -52,8 +55,20 @@
     }else{
         NSLog(@"两个数组不相等");
     }
+    
+    NSMutableArray * mutableArray = [NSMutableArray arrayWithArray:array];
+    NSString * string = [mutableArray valueForKey:@"3"];
+    NSLog(@"1111%@",string);
+    
     self.avarImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     [self.view addSubview:self.avarImageView];
+    
+    
+    UIButton * button = [[UIButton alloc] initWithFrame:CGRectMake(0, 100, 100, 100)];
+    [button addTarget:self action:@selector(selecttest) forControlEvents:UIControlEventTouchUpInside];
+    button.backgroundColor = [UIColor redColor];
+    [self.view addSubview:button];
+//    [self performSelector:@selector(someMethod:)];
     
     NSURL* url = [NSURL URLWithString:@"https://shsk-shverse-sit.s3.cn-north-1.amazonaws.com.cn/dynamic/files/0500513949800001.bmp"];
     NSData * data = [NSData dataWithContentsOfURL:url];
@@ -175,6 +190,9 @@
 //    button.onImage = [UIImage createImageWithSize:button.frame.size gradientColors:@[kColorWithHex(0xFF444C),kColorWithHex(0xFF6A4F)]];
     
 //    self.emptyView.state = LHEmptyViewStateLoading;
+}
+-(void)selecttest{
+    [self test];
 }
 -(void)click:(LHCustomSwitch*)button{
     NSLog(@"%ld",button.on);

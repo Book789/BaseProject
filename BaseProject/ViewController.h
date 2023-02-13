@@ -10,6 +10,7 @@
 
 @interface ViewController : LHNestedScrollViewController
 
+-(void)test;
 
 @end
 

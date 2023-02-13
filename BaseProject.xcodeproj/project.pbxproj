@@ -45,11 +45,9 @@
 		B3F3FDAD2949BC3000F46D30 /* UIViewController+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FD492949BC3000F46D30 /* UIViewController+ViewController.m */; };
 		B3F3FDAE2949BC3000F46D30 /* UIColor+NB.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FD4A2949BC3000F46D30 /* UIColor+NB.m */; };
 		B3F3FDAF2949BC3000F46D30 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FD4B2949BC3000F46D30 /* UIView+frame.m */; };
-		B3F3FDB02949BC3000F46D30 /* NSArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FD4D2949BC3000F46D30 /* NSArray+Swizzling.m */; };
 		B3F3FDB12949BC3000F46D30 /* UILabel+label.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FD4E2949BC3000F46D30 /* UILabel+label.m */; };
 		B3F3FDB22949BC3000F46D30 /* NSString+NB.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FD522949BC3000F46D30 /* NSString+NB.m */; };
 		B3F3FDB32949BC3000F46D30 /* UIView+FMToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FD532949BC3000F46D30 /* UIView+FMToast.m */; };
-		B3F3FDB42949BC3000F46D30 /* NSMutableArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FD582949BC3000F46D30 /* NSMutableArray+Swizzling.m */; };
 		B3F3FDB52949BC3000F46D30 /* UIImage+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FD592949BC3000F46D30 /* UIImage+Gradient.m */; };
 		B3F3FDB62949BC3000F46D30 /* UIImage+NB.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FD5C2949BC3000F46D30 /* UIImage+NB.m */; };
 		B3F3FDB72949BC3000F46D30 /* UIWindow+FMPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FD5E2949BC3000F46D30 /* UIWindow+FMPublic.m */; };
@@ -135,6 +133,13 @@
 		B3F3FE662949BDF400F46D30 /* lz4.c in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FC442949BAE200F46D30 /* lz4.c */; };
 		B3F3FE682949BE9B00F46D30 /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = B3F3FE672949BE9B00F46D30 /* 1024.png */; };
 		B3F3FEBA2949E97900F46D30 /* NSData+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3FEB92949E97900F46D30 /* NSData+Compress.m */; };
+		FD9BD06D297252DC00B2E03C /* SSL_Use.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9BD06C297252DC00B2E03C /* SSL_Use.m */; };
+		FDDA29B62991DD03006789F6 /* NSObject+MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29AE2991DD03006789F6 /* NSObject+MethodSwizzling.m */; };
+		FDDA29B72991DD03006789F6 /* NSObject+SelectorDefender.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29AF2991DD03006789F6 /* NSObject+SelectorDefender.m */; };
+		FDDA29B82991DD03006789F6 /* NSObject+KVCDefender.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29B32991DD03006789F6 /* NSObject+KVCDefender.m */; };
+		FDDA29B92991DD03006789F6 /* NSObject+KVODefender.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29B52991DD03006789F6 /* NSObject+KVODefender.m */; };
+		FDDA29BC2991E8E2006789F6 /* NSArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29BB2991E8E2006789F6 /* NSArray+Swizzling.m */; };
+		FDDA29BF29948056006789F6 /* NSMutableArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29BD29948056006789F6 /* NSMutableArray+Swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,10 +230,8 @@
 		B3F3FD4A2949BC3000F46D30 /* UIColor+NB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NB.m"; sourceTree = "<group>"; };
 		B3F3FD4B2949BC3000F46D30 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
 		B3F3FD4C2949BC3000F46D30 /* UIImage+NB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NB.h"; sourceTree = "<group>"; };
-		B3F3FD4D2949BC3000F46D30 /* NSArray+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Swizzling.m"; sourceTree = "<group>"; };
 		B3F3FD4E2949BC3000F46D30 /* UILabel+label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+label.m"; sourceTree = "<group>"; };
 		B3F3FD4F2949BC3000F46D30 /* UIImage+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gradient.h"; sourceTree = "<group>"; };
-		B3F3FD502949BC3000F46D30 /* NSMutableArray+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Swizzling.h"; sourceTree = "<group>"; };
 		B3F3FD512949BC3000F46D30 /* NSString+DecimalsCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DecimalsCalculation.h"; sourceTree = "<group>"; };
 		B3F3FD522949BC3000F46D30 /* NSString+NB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NB.m"; sourceTree = "<group>"; };
 		B3F3FD532949BC3000F46D30 /* UIView+FMToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FMToast.m"; sourceTree = "<group>"; };
@@ -236,10 +239,8 @@
 		B3F3FD552949BC3000F46D30 /* UIWindow+FMPublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+FMPublic.h"; sourceTree = "<group>"; };
 		B3F3FD562949BC3000F46D30 /* UIViewController+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ViewController.h"; sourceTree = "<group>"; };
 		B3F3FD572949BC3000F46D30 /* UIColor+NB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NB.h"; sourceTree = "<group>"; };
-		B3F3FD582949BC3000F46D30 /* NSMutableArray+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Swizzling.m"; sourceTree = "<group>"; };
 		B3F3FD592949BC3000F46D30 /* UIImage+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gradient.m"; sourceTree = "<group>"; };
 		B3F3FD5A2949BC3000F46D30 /* UILabel+label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+label.h"; sourceTree = "<group>"; };
-		B3F3FD5B2949BC3000F46D30 /* NSArray+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Swizzling.h"; sourceTree = "<group>"; };
 		B3F3FD5C2949BC3000F46D30 /* UIImage+NB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NB.m"; sourceTree = "<group>"; };
 		B3F3FD5D2949BC3000F46D30 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
 		B3F3FD5E2949BC3000F46D30 /* UIWindow+FMPublic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+FMPublic.m"; sourceTree = "<group>"; };
@@ -399,6 +400,20 @@
 		B3F3FEB82949E97900F46D30 /* NSData+Compress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Compress.h"; sourceTree = "<group>"; };
 		B3F3FEB92949E97900F46D30 /* NSData+Compress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Compress.m"; sourceTree = "<group>"; };
 		EB7161935D340C563636331B /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		FD9BD06B297252DC00B2E03C /* SSL_Use.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSL_Use.h; sourceTree = "<group>"; };
+		FD9BD06C297252DC00B2E03C /* SSL_Use.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSL_Use.m; sourceTree = "<group>"; };
+		FDDA29AE2991DD03006789F6 /* NSObject+MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodSwizzling.m"; sourceTree = "<group>"; };
+		FDDA29AF2991DD03006789F6 /* NSObject+SelectorDefender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SelectorDefender.m"; sourceTree = "<group>"; };
+		FDDA29B02991DD03006789F6 /* NSObject+KVODefender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVODefender.h"; sourceTree = "<group>"; };
+		FDDA29B12991DD03006789F6 /* NSObject+KVCDefender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVCDefender.h"; sourceTree = "<group>"; };
+		FDDA29B22991DD03006789F6 /* NSObject+SelectorDefender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SelectorDefender.h"; sourceTree = "<group>"; };
+		FDDA29B32991DD03006789F6 /* NSObject+KVCDefender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVCDefender.m"; sourceTree = "<group>"; };
+		FDDA29B42991DD03006789F6 /* NSObject+MethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodSwizzling.h"; sourceTree = "<group>"; };
+		FDDA29B52991DD03006789F6 /* NSObject+KVODefender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVODefender.m"; sourceTree = "<group>"; };
+		FDDA29BA2991E8E2006789F6 /* NSArray+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Swizzling.h"; sourceTree = "<group>"; };
+		FDDA29BB2991E8E2006789F6 /* NSArray+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Swizzling.m"; sourceTree = "<group>"; };
+		FDDA29BD29948056006789F6 /* NSMutableArray+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Swizzling.m"; sourceTree = "<group>"; };
+		FDDA29BE29948056006789F6 /* NSMutableArray+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Swizzling.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -465,6 +480,8 @@
 			children = (
 				B37032A12955570B0042BEF3 /* LH_Openssl.h */,
 				B37032A02955570A0042BEF3 /* LH_Openssl.m */,
+				FD9BD06B297252DC00B2E03C /* SSL_Use.h */,
+				FD9BD06C297252DC00B2E03C /* SSL_Use.m */,
 			);
 			path = OpenSSL;
 			sourceTree = "<group>";
@@ -619,6 +636,7 @@
 		B3F3FD392949BC3000F46D30 /* Extra */ = {
 			isa = PBXGroup;
 			children = (
+				FDDA29AD2991DCD6006789F6 /* Crash_Runtime */,
 				B300660F295326FC000838EB /* OpenSSL */,
 				B30065E02951C004000838EB /* WordFilter */,
 				B30065D029518624000838EB /* LogManage */,
@@ -677,10 +695,6 @@
 		B3F3FD482949BC3000F46D30 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				B3F3FD5B2949BC3000F46D30 /* NSArray+Swizzling.h */,
-				B3F3FD4D2949BC3000F46D30 /* NSArray+Swizzling.m */,
-				B3F3FD502949BC3000F46D30 /* NSMutableArray+Swizzling.h */,
-				B3F3FD582949BC3000F46D30 /* NSMutableArray+Swizzling.m */,
 				B3F3FD512949BC3000F46D30 /* NSString+DecimalsCalculation.h */,
 				B3F3FD622949BC3000F46D30 /* NSString+DecimalsCalculation.m */,
 				B3F3FD612949BC3000F46D30 /* NSString+NB.h */,
@@ -965,6 +979,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FDDA29AD2991DCD6006789F6 /* Crash_Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				FDDA29BE29948056006789F6 /* NSMutableArray+Swizzling.h */,
+				FDDA29BD29948056006789F6 /* NSMutableArray+Swizzling.m */,
+				FDDA29BA2991E8E2006789F6 /* NSArray+Swizzling.h */,
+				FDDA29BB2991E8E2006789F6 /* NSArray+Swizzling.m */,
+				FDDA29B12991DD03006789F6 /* NSObject+KVCDefender.h */,
+				FDDA29B32991DD03006789F6 /* NSObject+KVCDefender.m */,
+				FDDA29B02991DD03006789F6 /* NSObject+KVODefender.h */,
+				FDDA29B52991DD03006789F6 /* NSObject+KVODefender.m */,
+				FDDA29B42991DD03006789F6 /* NSObject+MethodSwizzling.h */,
+				FDDA29AE2991DD03006789F6 /* NSObject+MethodSwizzling.m */,
+				FDDA29B22991DD03006789F6 /* NSObject+SelectorDefender.h */,
+				FDDA29AF2991DD03006789F6 /* NSObject+SelectorDefender.m */,
+			);
+			path = Crash_Runtime;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1154,17 +1187,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3F3FE552949BD8600F46D30 /* LHRedPacketDetailViewController.m in Sources */,
+				FDDA29B72991DD03006789F6 /* NSObject+SelectorDefender.m in Sources */,
 				B3F3FDC42949BC3000F46D30 /* BaseNavigationController.m in Sources */,
 				B3F3FDAF2949BC3000F46D30 /* UIView+frame.m in Sources */,
 				B3F3FDC32949BC3000F46D30 /* BaseViewController.m in Sources */,
 				B3F3FE5B2949BD8600F46D30 /* UIDynamicViewController.m in Sources */,
 				B3F3FE612949BD8600F46D30 /* GraffitiView.m in Sources */,
+				FD9BD06D297252DC00B2E03C /* SSL_Use.m in Sources */,
 				B3F3FE5E2949BD8600F46D30 /* SwitchTableViewCell.m in Sources */,
 				B3F3FDF72949BD5800F46D30 /* NBRefreshGifHeader.m in Sources */,
 				B3F3FE4B2949BD8600F46D30 /* LHMoment.m in Sources */,
+				FDDA29B62991DD03006789F6 /* NSObject+MethodSwizzling.m in Sources */,
 				B3F3FDF92949BD5800F46D30 /* LHModifyFamilyDeclarationView.m in Sources */,
 				B3F3FE022949BD5800F46D30 /* XHVoiceRecordHelper.m in Sources */,
 				B3F3FE4F2949BD8600F46D30 /* MHPictureMetadata.m in Sources */,
+				FDDA29BC2991E8E2006789F6 /* NSArray+Swizzling.m in Sources */,
 				B3F3FDFD2949BD5800F46D30 /* LHBackgroundScrollView.m in Sources */,
 				B3F3FE622949BD8600F46D30 /* LHCollectionViewCustomLayout.m in Sources */,
 				B3F3FDB12949BC3000F46D30 /* UILabel+label.m in Sources */,
@@ -1199,15 +1236,16 @@
 				B3F3FE642949BDEE00F46D30 /* lz4frame.c in Sources */,
 				B3F3FDB72949BC3000F46D30 /* UIWindow+FMPublic.m in Sources */,
 				B3F3FDD62949BC3100F46D30 /* DataHelper.m in Sources */,
+				FDDA29B92991DD03006789F6 /* NSObject+KVODefender.m in Sources */,
 				B3F3FE652949BDF100F46D30 /* xxhash.c in Sources */,
 				B3F3FA172949B12600F46D30 /* ViewController.m in Sources */,
 				B3F3FDA82949BC3000F46D30 /* LHSegmentedView.m in Sources */,
 				B3F3FA112949B12600F46D30 /* AppDelegate.m in Sources */,
+				FDDA29B82991DD03006789F6 /* NSObject+KVCDefender.m in Sources */,
 				B3F3FE4A2949BD8600F46D30 /* MHMomentPhotoView.m in Sources */,
 				B3F3FE002949BD5800F46D30 /* SHInfiniteShufflingLabel.m in Sources */,
 				B3F3FDD72949BC3100F46D30 /* LHCheckTool.m in Sources */,
 				B3F3FE572949BD8600F46D30 /* LHPersonViewController.m in Sources */,
-				B3F3FDB02949BC3000F46D30 /* NSArray+Swizzling.m in Sources */,
 				B3F3FE5D2949BD8600F46D30 /* FriendsCircleViewController.m in Sources */,
 				B3F3FDAC2949BC3000F46D30 /* LHReachability.m in Sources */,
 				B3F3FE492949BD8600F46D30 /* MHComment.m in Sources */,
@@ -1222,7 +1260,6 @@
 				B3F3FA222949B12700F46D30 /* main.m in Sources */,
 				B3F3FDB52949BC3000F46D30 /* UIImage+Gradient.m in Sources */,
 				B3F3FDA92949BC3000F46D30 /* LHNestedScrollViewController.m in Sources */,
-				B3F3FDB42949BC3000F46D30 /* NSMutableArray+Swizzling.m in Sources */,
 				B3F3FE632949BDEC00F46D30 /* lz4hc.c in Sources */,
 				B30065DA29518648000838EB /* SQFileLogFormatter.m in Sources */,
 				B3F3FE012949BD5800F46D30 /* LHSheetView.m in Sources */,
@@ -1240,6 +1277,7 @@
 				B3F3FE532949BD8600F46D30 /* LHConstant.m in Sources */,
 				B3F3FDC52949BC3000F46D30 /* LH_TabBarController.m in Sources */,
 				B3F3FE052949BD5800F46D30 /* LHEmptyView.m in Sources */,
+				FDDA29BF29948056006789F6 /* NSMutableArray+Swizzling.m in Sources */,
 				B3F3FDBF2949BC3000F46D30 /* GKPhotoView.m in Sources */,
 				B3F3FDD02949BC3000F46D30 /* NBNetworkAction.m in Sources */,
 				B3F3FDB62949BC3000F46D30 /* UIImage+NB.m in Sources */,

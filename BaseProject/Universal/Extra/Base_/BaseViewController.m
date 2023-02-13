@@ -20,9 +20,9 @@
     // Do any additional setup after loading the view.
     
     self.emptyView = [LHEmptyView addToView:self.view show:NO];
-
     
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
