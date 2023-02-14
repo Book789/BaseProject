@@ -20,3 +20,6 @@ NSData+Compress 支持lz4 iOS系统自带压缩
 
 
 Crash_Runtime 1 防止 数组 字典越界崩溃 2 防止调用 Unrecognized Selector 3 防止KVO 多次移除或移除时对象释放 
+
+
+Magnetic -- 仿Apple音乐流派气泡选择 – Magnetic 项目中的存在边界感，无边界的可以去github 下载源码

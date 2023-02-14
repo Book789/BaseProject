@@ -140,6 +140,13 @@
 		FDDA29B92991DD03006789F6 /* NSObject+KVODefender.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29B52991DD03006789F6 /* NSObject+KVODefender.m */; };
 		FDDA29BC2991E8E2006789F6 /* NSArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29BB2991E8E2006789F6 /* NSArray+Swizzling.m */; };
 		FDDA29BF29948056006789F6 /* NSMutableArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29BD29948056006789F6 /* NSMutableArray+Swizzling.m */; };
+		FDDA29CA299B621E006789F6 /* SKMultilineLabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29C3299B621E006789F6 /* SKMultilineLabelNode.swift */; };
+		FDDA29CB299B621E006789F6 /* ImageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29C4299B621E006789F6 /* ImageNode.swift */; };
+		FDDA29CC299B621E006789F6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29C5299B621E006789F6 /* Extensions.swift */; };
+		FDDA29CD299B621E006789F6 /* MagneticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29C6299B621E006789F6 /* MagneticView.swift */; };
+		FDDA29CE299B621E006789F6 /* Magnetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29C7299B621E006789F6 /* Magnetic.swift */; };
+		FDDA29CF299B621E006789F6 /* SKAction+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29C8299B621E006789F6 /* SKAction+Color.swift */; };
+		FDDA29D0299B621E006789F6 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA29C9299B621E006789F6 /* Node.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -414,6 +421,13 @@
 		FDDA29BB2991E8E2006789F6 /* NSArray+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Swizzling.m"; sourceTree = "<group>"; };
 		FDDA29BD29948056006789F6 /* NSMutableArray+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Swizzling.m"; sourceTree = "<group>"; };
 		FDDA29BE29948056006789F6 /* NSMutableArray+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Swizzling.h"; sourceTree = "<group>"; };
+		FDDA29C3299B621E006789F6 /* SKMultilineLabelNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMultilineLabelNode.swift; sourceTree = "<group>"; };
+		FDDA29C4299B621E006789F6 /* ImageNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageNode.swift; sourceTree = "<group>"; };
+		FDDA29C5299B621E006789F6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FDDA29C6299B621E006789F6 /* MagneticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagneticView.swift; sourceTree = "<group>"; };
+		FDDA29C7299B621E006789F6 /* Magnetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Magnetic.swift; sourceTree = "<group>"; };
+		FDDA29C8299B621E006789F6 /* SKAction+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Color.swift"; sourceTree = "<group>"; };
+		FDDA29C9299B621E006789F6 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -636,6 +650,7 @@
 		B3F3FD392949BC3000F46D30 /* Extra */ = {
 			isa = PBXGroup;
 			children = (
+				FDDA29C2299B621E006789F6 /* Magnetic */,
 				FDDA29AD2991DCD6006789F6 /* Crash_Runtime */,
 				B300660F295326FC000838EB /* OpenSSL */,
 				B30065E02951C004000838EB /* WordFilter */,
@@ -998,6 +1013,20 @@
 			path = Crash_Runtime;
 			sourceTree = "<group>";
 		};
+		FDDA29C2299B621E006789F6 /* Magnetic */ = {
+			isa = PBXGroup;
+			children = (
+				FDDA29C3299B621E006789F6 /* SKMultilineLabelNode.swift */,
+				FDDA29C4299B621E006789F6 /* ImageNode.swift */,
+				FDDA29C5299B621E006789F6 /* Extensions.swift */,
+				FDDA29C6299B621E006789F6 /* MagneticView.swift */,
+				FDDA29C7299B621E006789F6 /* Magnetic.swift */,
+				FDDA29C8299B621E006789F6 /* SKAction+Color.swift */,
+				FDDA29C9299B621E006789F6 /* Node.swift */,
+			);
+			path = Magnetic;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1186,6 +1215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDA29CC299B621E006789F6 /* Extensions.swift in Sources */,
 				B3F3FE552949BD8600F46D30 /* LHRedPacketDetailViewController.m in Sources */,
 				FDDA29B72991DD03006789F6 /* NSObject+SelectorDefender.m in Sources */,
 				B3F3FDC42949BC3000F46D30 /* BaseNavigationController.m in Sources */,
@@ -1209,16 +1239,21 @@
 				B3F3FEBA2949E97900F46D30 /* NSData+Compress.m in Sources */,
 				B3F3FE4D2949BD8600F46D30 /* LHMomentHelper.m in Sources */,
 				B3F3FDB32949BC3000F46D30 /* UIView+FMToast.m in Sources */,
+				FDDA29CE299B621E006789F6 /* Magnetic.swift in Sources */,
+				FDDA29CD299B621E006789F6 /* MagneticView.swift in Sources */,
 				B3F3FDD22949BC3000F46D30 /* AppLaunchTime.m in Sources */,
+				FDDA29D0299B621E006789F6 /* Node.swift in Sources */,
 				B3F3FDD42949BC3100F46D30 /* NBClassifyFileManager.m in Sources */,
 				B3F3FDD12949BC3000F46D30 /* NBJSONResponseSerializer.m in Sources */,
 				B30065D929518648000838EB /* SQLogFileManager.m in Sources */,
 				B3F3FDBD2949BC3000F46D30 /* UIScrollView+GKPhotoBrowser.m in Sources */,
 				B3F3FE522949BD8600F46D30 /* LHMomentItemViewModel.m in Sources */,
+				FDDA29CA299B621E006789F6 /* SKMultilineLabelNode.swift in Sources */,
 				B3F3FDAD2949BC3000F46D30 /* UIViewController+ViewController.m in Sources */,
 				B3F3FDFC2949BD5800F46D30 /* LHAleartView.m in Sources */,
 				B3F3FE5F2949BD8600F46D30 /* ContactTableViewCell.m in Sources */,
 				B3F3FDFE2949BD5800F46D30 /* ContactView.m in Sources */,
+				FDDA29CF299B621E006789F6 /* SKAction+Color.swift in Sources */,
 				B3F3FDC82949BC3000F46D30 /* BaseWKWebViewController.m in Sources */,
 				B3F3FE502949BD8600F46D30 /* FriendsCircleFooterView.m in Sources */,
 				B3F3FDAB2949BC3000F46D30 /* YYReachability.m in Sources */,
@@ -1260,6 +1295,7 @@
 				B3F3FA222949B12700F46D30 /* main.m in Sources */,
 				B3F3FDB52949BC3000F46D30 /* UIImage+Gradient.m in Sources */,
 				B3F3FDA92949BC3000F46D30 /* LHNestedScrollViewController.m in Sources */,
+				FDDA29CB299B621E006789F6 /* ImageNode.swift in Sources */,
 				B3F3FE632949BDEC00F46D30 /* lz4hc.c in Sources */,
 				B30065DA29518648000838EB /* SQFileLogFormatter.m in Sources */,
 				B3F3FE012949BD5800F46D30 /* LHSheetView.m in Sources */,
@@ -1546,6 +1582,7 @@
 		B3F3FA3F2949B12700F46D30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1563,6 +1600,7 @@
 		B3F3FA402949B12700F46D30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1580,6 +1618,7 @@
 		B3F3FA422949B12700F46D30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1595,6 +1634,7 @@
 		B3F3FA432949B12700F46D30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
